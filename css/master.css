@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poller One', cursive;
+}
+nav {
+  background-color: #7BAE5C;
+  text-align: center;
+}
+nav ul li{
+  display: inline;
+  padding-right: 50px;
+  padding-left: 50px;
+}
