@@ -18,6 +18,9 @@ nav {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 30px;
+  width: 100%;
+  left: 0%;
+  top: 0%;
 }
 nav ul{
   padding-top: 10px;
@@ -34,6 +37,14 @@ nav ul li a{
   text-decoration: none;
   color: inherit;
 }
+#banner-homepage{
+  text-align: center;
+}
+#banner-homepage img{
+  height: 450px;
+  width: 988px;
+  object-fit: fill;
+}
 footer{
   text-align: center;
   font-family: 'Sen', sans-serif;
@@ -41,7 +52,6 @@ footer{
   color: white;
   padding-bottom: 30px;
   padding-top: 30px;
-  position: fixed;
   width: 100%;
   left: 0%;
   bottom: 0%;
