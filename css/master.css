@@ -1,17 +1,30 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
   list-style: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 h1{
-  font-size: 46px;
-  letter-spacing: 12px;
-}
-.Header {
+  font-size: 48px;
   font-family: 'Poller One', cursive;
+}
+h2{
+  font-size: 38px;
+  font-family: 'Poller One', cursive;
+}
+h3{
+  font-size: 28px;
+  font-family: 'Poller One', cursive;
+}
+p{
+  font-family: 'Sen', sans-serif;
+}
+body {
+
+}
+body li{
+  font-family: 'Sen', sans-serif;
 }
 nav {
   background-color: #7BAE5C;
@@ -19,8 +32,10 @@ nav {
   padding-top: 40px;
   padding-bottom: 30px;
   width: 100%;
-  left: 0%;
-  top: 0%;
+}
+nav h1{
+  letter-spacing: 12px;
+  cursor: pointer;
 }
 nav ul{
   padding-top: 10px;
@@ -49,7 +64,7 @@ nav ul li a{
   font-family: 'Sen', sans-serif;
   margin: 50px auto;
   width: 80%;
-  text-alig: center;
+  text-align: center;
 }
 .row{
   display: flex;
@@ -95,6 +110,46 @@ nav ul li a{
 .box-body .btn:hover{
   opacity: 1;
 }
+.page-body{
+  text-align: center;
+}
+.page-body img{
+  margin-bottom: 50px;
+}
+.page-body p{
+  width: 80%;
+  margin: 50px auto;
+  font-size: 28px;
+}
+.page-header{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.page-btn{
+  font-family: 'Sen', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  background: #7BAE5C;
+  margin: 50px auto;
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 20px 10px;
+  opacity: 0.7;
+  transition: 0.35s;
+  width: 60%;
+}
+.page-btn:hover{
+  opacity: 1;
+}
+.page-body ul{
+  list-style-type: circle;
+}
+.page-body ul li{
+  font-size: 28px;
+}
 footer{
   text-align: center;
   font-family: 'Sen', sans-serif;
@@ -103,8 +158,6 @@ footer{
   padding-bottom: 30px;
   padding-top: 30px;
   width: 100%;
-  left: 0%;
-  bottom: 0%;
 }
 footer p{
   padding-top: 15px;
@@ -124,47 +177,4 @@ footer ul li{
 footer ul li a{
   text-decoration: none;
   color: inherit;
-}
-.p1{
-  text-align: center;
-  float: right;
-  width: 49%;
-  padding:2%;
-  /*height: 50%;*/
-  border: 1px solid red;
-  font-family: 'Sen', sans-serif;
-  font-size: 22px;
-}
-.p2{
-  float: left;
-  width: 49%;
-  /*height: 40%;*/
-  border: 1px solid red;
-  font-family: 'Sen', sans-serif;
-  font-size: 20px;
-  text-align: left;
-  background-color:#FFB6C1;
-
-
-}
-
-.hungryGirl{
-  padding-top:12%;
-  size: 49%;
-  float: right;
-  width: 0%;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: grey;
-  color: white;
-  text-align: center;
-}
-
-.padding{
-  padding:1%;
 }
