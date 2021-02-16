@@ -150,6 +150,32 @@ nav ul li a{
 .page-body ul li{
   font-size: 28px;
 }
+.p1{
+  width: 49%;
+  float: right;
+  text-align: center;
+  font-size: 22px;
+}
+.p1 li{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.p2{
+  width: 49%;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+}
+.p2 li{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.padding{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 988px;
+  margin: 100px auto;
+}
 footer{
   text-align: center;
   font-family: 'Sen', sans-serif;
