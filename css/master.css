@@ -5,6 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+/*header styling*/
 h1{
   font-size: 48px;
   font-family: 'Poller One', cursive;
@@ -17,15 +18,14 @@ h3{
   font-size: 28px;
   font-family: 'Poller One', cursive;
 }
+/*paragraph styling*/
 p{
   font-family: 'Sen', sans-serif;
-}
-body {
-
 }
 body li{
   font-family: 'Sen', sans-serif;
 }
+/*navigation bar style*/
 nav {
   background-color: #7BAE5C;
   text-align: center;
@@ -52,6 +52,7 @@ nav ul li a{
   text-decoration: none;
   color: inherit;
 }
+/*homepage image banner styling*/
 #banner-homepage{
   text-align: center;
 }
@@ -60,6 +61,7 @@ nav ul li a{
   width: 90%;
   object-fit: cover;
 }
+/*description boxes styling for home page*/
 #description-boxes{
   font-family: 'Sen', sans-serif;
   margin: 50px auto;
@@ -110,6 +112,7 @@ nav ul li a{
 .box-body .btn:hover{
   opacity: 1;
 }
+/*universal styling to effect content on every page*/
 .page-body{
   text-align: center;
 }
@@ -150,6 +153,7 @@ nav ul li a{
 .page-body ul li{
   font-size: 28px;
 }
+/*covid 19 page styling*/
 .p1{
   width: 49%;
   float: right;
@@ -176,6 +180,7 @@ nav ul li a{
   width: 988px;
   margin: 100px auto;
 }
+/*footer styling*/
 footer{
   text-align: center;
   font-family: 'Sen', sans-serif;
